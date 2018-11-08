@@ -31,7 +31,7 @@ public class CenterBoxFunction {
     public static void centeredSquareDrawer(int squareSize, Graphics graphics) {
         graphics.setColor(new Color(0, 255, 0, 50));
         graphics.fillRect((WIDTH / 2 - (squareSize / 2)), (HEIGHT / 2 - (squareSize / 2)), squareSize, squareSize);
-        //graphics.fillRect((WIDTH /2 - squareSize/2), HEIGHT /,WIDTH / 2 , HEIGHT / 2);
+        //graphics.fillRect(0,0,WIDTH / 2 , HEIGHT / 2);
     }
 
     public static void main(String[] args) {

@@ -31,7 +31,7 @@ public class LinePlay {
     static int HEIGHT = 400;
 
     public static void main(String[] args) {
-        JFrame jFrame = new JFrame("Ex01LinePlay");
+        JFrame jFrame = new JFrame("LinePlay");
         jFrame.setSize(new Dimension(WIDTH, HEIGHT + 23));
         jFrame.setDefaultCloseOperation(EXIT_ON_CLOSE);
         jFrame.add(new ImagePanel());

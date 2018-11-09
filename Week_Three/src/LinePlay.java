@@ -18,10 +18,12 @@ public class LinePlay {
     }
 
     private static void lineDrawer(int i, int stepSize, Graphics graphics) {
+        //graphics.setColor(Color.GREEN);
         Random random = new Random();
         graphics.setColor(new Color(random.nextInt(256), random.nextInt(256), random.nextInt(256)));
         graphics.drawLine(i * stepSize, 0, HEIGHT, i * stepSize);
         graphics.setColor(new Color(random.nextInt(256), random.nextInt(256), random.nextInt(256)));
+        //graphics.setColor(Color.BLUE);
         graphics.drawLine(0,i * stepSize, i * stepSize, WIDTH);
     }
 

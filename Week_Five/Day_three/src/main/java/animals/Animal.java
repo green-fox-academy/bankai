@@ -13,6 +13,13 @@ public abstract class Animal {
 
     public abstract String breed();
 
+    public void poop() {
+    }
+
+    public void walk(){
+
+    }
+
     public String getName() {
         return name;
     }

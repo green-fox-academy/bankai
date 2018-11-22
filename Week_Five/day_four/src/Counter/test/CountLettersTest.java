@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 public class CountLettersTest {
   @Test
-  public void should_returnHashmapWithLettersAsKeysAndRepetitionsAsIntegers_whenSentenceInput() {
+  public void should_returnHashmapWithLettersAsKeys() {
 
     CountLetters counters = new CountLetters();
 

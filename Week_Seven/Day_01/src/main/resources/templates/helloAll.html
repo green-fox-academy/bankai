@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Greetings in Many Languages</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+<p th:style="'font-size:' + ${size} + '; color:rgb(' + ${rainbow} + ')'" th:text="${greet} + '!'"/>
+</body>
+</html>

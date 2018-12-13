@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Useful stuff</title>
+</head>
+<body>
+<h1>Useful Stuff</h1>
+<div>
+  <a href="/useful/colored">Colored Background</a>
+</div>
+<div>
+  <a href="/useful/email?email=bluedabadee@dabadee.com">Email Validation</a>
+</div>
+<h2>Pentatonic coding</h2>
+<a href="useful/encode?text=message&number=1">Encode</a>
+<a href="useful/decode?text=nfttbhf&number=1">Decode</a>
+
+<h2>Pentatonic encoding</h2>
+<form action="#" th:action="@{/useful/encode}" method="get">
+  <div>
+    <label for="textiden">Text to encode</label>
+    <input type="text" id="textiden" name="text" />
+  </div>
+  <label for="numiden">Number to shift</label>
+  <input type="number" id="numiden" name="number" />
+  <input type="submit" value="Encode" />
+</form>
+
+<h2>Pentatonic decoding</h2>
+<form action="#" th:action="@{/useful/decode}" method="get">
+  <div>
+    <label for="textidde">Text to decode</label>
+    <input type="text" id="textidde" name="text" />
+  </div>
+  <label for="numidde">Number to shift</label>
+  <input type="number" id="numidde" name="number" />
+  <input type="submit" value="Decode" />
+</form>
+</body>
+</html>

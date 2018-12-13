@@ -1,5 +1,5 @@
-package com.greenfox.weirdname.depend.Service;
-import com.greenfox.weirdname.depend.Service.StudentServiceInt;
+package com.greenfox.weirdname.depend.service;
+
 import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
 package com.greenfox.weirdname.depend;
 
-import com.greenfox.weirdname.depend.Service.MyColor;
+import com.greenfox.weirdname.depend.service.MyColor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

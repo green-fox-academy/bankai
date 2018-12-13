@@ -1,7 +1,7 @@
 package com.greenfox.weirdname.depend.controller;
 
-import com.greenfox.weirdname.depend.Service.StudentServiceInt;
-import com.greenfox.weirdname.depend.Service.UtilityService;
+import com.greenfox.weirdname.depend.service.StudentServiceInt;
+import com.greenfox.weirdname.depend.service.UtilityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

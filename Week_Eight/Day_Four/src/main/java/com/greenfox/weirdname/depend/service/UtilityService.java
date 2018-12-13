@@ -1,7 +1,8 @@
-package com.greenfox.weirdname.depend.service;
+package com.greenfox.weirdname.depend.Service;
 
 import org.springframework.stereotype.Service;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Random;
 
 @Service

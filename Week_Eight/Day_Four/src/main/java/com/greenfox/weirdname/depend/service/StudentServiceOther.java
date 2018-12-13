@@ -1,6 +1,5 @@
-package com.greenfox.weirdname.depend.Service;
+package com.greenfox.weirdname.depend.service;
 
-import com.greenfox.weirdname.depend.Service.StudentServiceInt;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 

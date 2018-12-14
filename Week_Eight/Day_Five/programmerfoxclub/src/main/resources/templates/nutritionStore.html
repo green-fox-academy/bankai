@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Nutrition Store</title>
+  <link rel="stylesheet" type="text/css" th:href="@{/stylesheet.css}"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500" rel="stylesheet">
+</head>
+<body>
+<div>
+  <ul>
+    <li th:if="${fox != null}"><a th:href="@{'/?name=' + ${fox.name}}">Information</a></li>
+    <li th:if="${fox != null}"><a th:href="@{'/nutritionStore?name=' + ${fox.name}}">NutritionStore</a></li>
+    <li th:if="${fox != null}"><a th:href="@{'/trickCenter?name=' + ${fox.name}}">Trick Center</a></li>
+    <li th:if="${fox != null}"><a th:href="@{'/actionHistory?name=' + ${fox.name}}">Action History</a></li>
+  </ul>
+</div>
+<div>
+  <form action="#" th:action="@{/eating}" method="get">
+    <input type="hidden" name="name" th:value="${fox.name}" />
+    <label for="selectD">Drink</label>
+    <select id="selectD" name = "drink" >
+      <option th:each="drink : ${drinkList}" th:value="${drink}" th:text="${drink}" ></option>
+    </select>
+    <label for="selectF">Food</label>
+    <select id="selectF" name = "food" >
+      <option th:each="food : ${foodList}" th:value="${food}" th:text="${food}" ></option>
+    </select>
+    <input type="submit" value="Change" />
+  </form>
+</div>
+</body>
+</html>

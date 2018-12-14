@@ -1,0 +1,33 @@
+body {
+  font-family: 'Montserrat', monospace;
+  background-color: powderblue;
+}
+main {
+  margin: auto;
+  background-color: #fff;
+
+}
+p {
+  text-align: center;
+}
+
+form {
+  margin-left: 790px;
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+span {
+  text-align: center;
+
+}
